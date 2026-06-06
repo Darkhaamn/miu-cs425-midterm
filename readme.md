@@ -24,6 +24,20 @@ This project follows a layered architecture and Separation of Concerns.
 - `ui` - contains the command-line user interface
 - `config` - contains Gson adapters for LocalDate and LocalTime
 
+## Diagrams
+
+### System Context Diagram
+
+![System Context Diagram](diagrams/system_context.png)
+
+### Use Case Diagram
+
+![Use Case Diagram](diagrams/use_case.png)
+
+### Domain Model Class Diagram
+
+![Domain Model Class Diagram](diagrams/domain_class.png)
+
 ## Features
 
 1. Display all appointments
