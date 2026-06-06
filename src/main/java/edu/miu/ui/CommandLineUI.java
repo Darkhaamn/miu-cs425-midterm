@@ -39,7 +39,8 @@ public class CommandLineUI {
             switch (choice) {
                 case 1 -> displayAsJson(appointmentService.getAllAppointmentsSortedDescending());
                 case 2 -> displayAsJson(patientService.getAllPatients());
-                case 3 -> {
+                case 3 -> displayAsJson(appointmentService.getQuarterlyUpcomingAppointments());
+                case 4 -> {
                     System.out.println("Application closed.");
                     return;
                 }
@@ -52,7 +53,8 @@ public class CommandLineUI {
         System.out.println("\nADS Dental Appointment Management System");
         System.out.println("1. Display all appointments");
         System.out.println("2. Display all patients");
-        System.out.println("3. Exit");
+        System.out.println("3. Display quarterly upcoming appointments");
+        System.out.println("4. Exit");
         System.out.print("Choose option: ");
     }
 
