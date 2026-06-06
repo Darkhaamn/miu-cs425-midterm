@@ -47,13 +47,19 @@ java --version
 Pull the Docker image:
 
 ```bash
-docker pull darkhaa/ads
+docker pull darkhaa/ads:latest
 ```
 
 Run the application:
 
 ```bash
-docker run -it --rm darkhaa/ads
+docker run -it --rm darkhaa/ads:latest
+```
+
+On Apple Silicon Macs, if Docker reports a platform mismatch, run:
+
+```bash
+docker run --platform linux/amd64 -it --rm darkhaa/ads:latest
 ```
 
 ## Links
