@@ -42,6 +42,20 @@ Check Java version:
 java --version
 ```
 
+## Run with Docker
+
+Pull the Docker image:
+
+```bash
+docker pull darkhaa/ads:1.0.2
+```
+
+Run the application:
+
+```bash
+docker run -it --rm darkhaa/ads:1.0.2
+```
+
 ## Links
 
 - GitHub: https://github.com/Darkhaamn/miu-cs425-midterm
