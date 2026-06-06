@@ -1,11 +1,10 @@
 package edu.miu.service;
 
-import edu.miu.domain.Appointment;
-import edu.miu.repository.AppointmentRepository;
-
-import java.time.LocalDate;
 import java.util.Comparator;
 import java.util.List;
+
+import edu.miu.domain.Appointment;
+import edu.miu.repository.AppointmentRepository;
 
 public class AppointmentService {
     private AppointmentRepository appointmentRepository;
