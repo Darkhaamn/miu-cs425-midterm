@@ -47,13 +47,13 @@ java --version
 Pull the Docker image:
 
 ```bash
-docker pull darkhaa/ads:1.0.2
+docker pull darkhaa/ads
 ```
 
 Run the application:
 
 ```bash
-docker run -it --rm darkhaa/ads:1.0.2
+docker run -it --rm darkhaa/ads
 ```
 
 ## Links
